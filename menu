@@ -63,4 +63,6 @@ echo -e "\e[031;1m# **************************************************"
     echo -e "\e[031;1mAutoScript By @OrangKuatSabahanTerkini Telegram: @OrangKuatSabahanTerkini\e[0m"
     echo -e "\e[031;1m========================================================================\e[0m"	
 
-wget 
+wget https://raw.githubusercontent.com/KeningauVPS/sabahanhacker/master/menu
+mv ./menu/usr/local/bin/menu
+chmnod +x /menu/usr/local/bin/menu
